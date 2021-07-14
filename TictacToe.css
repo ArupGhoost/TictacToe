@@ -1,0 +1,49 @@
+:root{
+    --main-color :rgb(176, 193, 226); 
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(46, 43, 43);
+}
+.app-header{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 30vh;
+   flex-direction: column;
+}
+.heading-text{
+    color: var(--main-color);
+    
+}
+.row{
+    color: var(--main-color);
+}
+.styling-x{
+    min-width: 100px;
+    min-height: 100px;
+    font-size:30px;
+    text-align: center;
+    color: var(--main-color);
+    font-weight: bolder;
+    padding: 30px;
+}
+.b-bottom-right{
+    border-right: 15px solid var(--main-color);
+    border-bottom: 15px solid var(--main-color);
+}
+.b-bottom {
+    border-bottom: 15px solid var(--main-color);
+}
+.b-right{
+    border-right: 15px solid var(--main-color);
+}
+button{
+    border: 1px solid var(--main-color);
+    background-color: var(--main-color);
+}
+.name{
+    color: var(--main-color);
+}
